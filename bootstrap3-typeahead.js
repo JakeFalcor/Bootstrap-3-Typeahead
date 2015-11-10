@@ -94,7 +94,7 @@
     },
 
     show: function () {
-      var pos = $.extend({}, this.$element.position(), {
+      var pos = $.extend({}, this.$element.parent().position(), {
         height: this.$element[0].offsetHeight
       }), scrollHeight;
 
